@@ -23,37 +23,7 @@ Make sure you meet the necessary requirements, like enabling verified emails and
 
 ---
 
-## Step Two (optional):
-
-<Note>
-  This step is optional and can be directly done in the setup process on the website. However, if you prefer to set up the channels manually, follow
-  these steps.
-</Note>
-
-To manage all support requests, you'll need to set up two channels:
-
-1. **Forum Channel** (For ticket storage)&#x20;
-
-- Go to your server and click the **Create Channel** button.
-- Choose **Forum** as the channel type.
-- Name the channel (e.g., "Support Tickets" or "Help Requests").
-- Set appropriate permissions for your support staff.
-- Once created, this will be the dedicated space where every support ticket will be logged and managed.
-
-2. **Ticket Creation Channel** (for opening tickets)
-
-- Create a **Text Channel**, e.g., "Support".
-
-<Warning>
-  In this channel, your bot will post an embedded message containing a button that users can click to open a new ticket. Once clicked, the user will
-  be guided through the ticket creation process in their DMs.&#x20;
-</Warning>
-
-![Create Channels](https://i.imgur.com/v6se85j.gif)
-
----
-
-## Step Three:&#x20;
+## Step Two:&#x20;
 
 Navigate to the server selection field on TicketPilot's website. You'll see a list of servers you manage. Select the server you want to invite the bot to by clicking **"Add"** next to the server name.
 Once selected, you'll be prompted to grant the bot the necessary permissions. Make sure **not to modify** these permissions, as they are essential for proper bot functionality.
@@ -62,16 +32,26 @@ Once selected, you'll be prompted to grant the bot the necessary permissions. Ma
 
 ---
 
-## Step Four:
+## Step Three:
 
-Now, you can choose a preset that includes categories, tags, and other settings for your tickets. While it's optional, we **highly recommend** selecting a preset to simplify setup.
+<Note>
+  This step is required, but it's optional to let the system automatically create the channels for you. If you prefer to do it manually, simply uncheck the box and manually set up the channels and permission yourself.
+</Note>
 
-After choosing (or skipping) the preset, you'll need to configure two channels:&#x20;
+Now you can choose a preset that includes categories, tags, and other settings for your tickets. While it's optional, we **highly recommend** selecting a preset to simplify setup.
 
-- **Ticket Embed Channel**: Select the text channel you created earlier (e.g., "Support") where the bot will post the ticket creation embed.&#x20;
-- **Ticket Forum**: Choose the forum channel (e.g., "Help Requests") where tickets will be logged and managed.
+The system will automatically check the "**Let the bot create the channels for me**" option, which will create the necessary channels for you, such as :
 
-![Server Setup](https://i.imgur.com/JWU1fDu.png)
+- **Ticket Embed Channel:** This is where the bot will post the ticket creation embed (e.g., in the "Support" channel).
+
+- **Ticket Forum:** This is the forum where tickets will be logged and managed (e.g., "Help Requests").
+
+![Setup](https://i.imgur.com/aVBFCuH.png)
+
+<Warning>
+  Your bot will post an embedded message containing a button that users can click to open a new ticket. Once clicked, the user will
+  be guided through the ticket creation process in their DMs.&#x20;
+</Warning>
 
 ---
 
