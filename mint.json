@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.ticketpilot.me"
+    "url": "https://panel.ticketpilot.me"
   },
   "tabs": [
     {
@@ -35,6 +35,10 @@
     {
       "group": "Getting Started",
       "pages": ["introduction", "setup/setup-guide", "setup/custom-bot-setup"]
+    },
+    {
+      "group": "Dashboard",
+      "pages": ["overview", "configuration"]
     },
     {
       "group": "Features",
