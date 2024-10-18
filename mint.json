@@ -38,7 +38,7 @@
     },
     {
       "group": "Dashboard",
-      "pages": ["dashboard/overview", "dashboard/configuration"]
+      "pages": ["dashboard/overview", "dashboard/configuration", "dashboard/tickets_overview"]
     },
     {
       "group": "Features",
