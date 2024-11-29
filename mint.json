@@ -38,11 +38,15 @@
     },
     {
       "group": "Dashboard",
-      "pages": ["dashboard/overview", "dashboard/configuration", "dashboard/tickets_overview"]
+      "pages": ["dashboard/overview", "dashboard/configuration", "dashboard/tickets_overview", "dashboard/users", "dashboard/audit_log"]
+    },
+    {
+      "group": "Core Features",
+      "pages": ["dashboard/ticket_panels", "dashboard/ticket_categories", "dashboard/smart_tags"]
     },
     {
       "group": "Features",
-      "pages": ["features/reviews", "features/helpdesk", "features/ocr", "features/pilotai"]
+      "pages": ["features/reviews", "features/help_desk", "features/ocr_scanner", "features/integrations", "features/pilotai"]
     },
     {
       "group": "Miscellaneous",
