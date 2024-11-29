@@ -1,0 +1,85 @@
+---
+title: Integrations  
+description: Connect your TicketPilot system to external services or build custom integrations for seamless workflow integration.  
+icon: integrations  
+---
+
+## Integrations Overview
+
+The **Integrations** feature allows you to connect external services to TicketPilot. This includes payment systems, digital product stores, or other APIs. Once integrated, these services can be used in workflows, support tickets, or automations, streamlining your operations.
+
+***
+
+### Installing an Integration
+
+To install an integration:
+
+1. Go to the **Integrations** tab in the menu.
+
+2. Find the integration you want to install and click `Install Integration`.
+
+3. Enter the required credentials for the integration (e.g., **Shop ID** and **API Key**).
+
+4. Press `Save`. The status will switch from `Not Installed` to `Installed`.
+
+#### Why We Need Your API Key
+
+TicketPilot uses your API Key to securely authenticate with external services. Your API key is encrypted with **AES-256-CBC**, a highly secure encryption method. These keys are stored in an encrypted format and cannot be accessed in plain text under any circumstances. Decryption only occurs when required for integration functionality, ensuring your key remains protected at all times.
+
+If you’re unsure where to find your API Key, check the integration’s documentation for detailed guidance.
+
+***
+
+### Allowed Integration Methods
+
+Every integration comes with specific methods that determine what TicketPilot can access. These methods will be listed when viewing or installing an integration. Examples include:
+
+* Fetching customer details by email.
+
+* Retrieving order details by transaction ID.
+
+* Automating support for digital product stores.
+
+Review these methods carefully to understand how the integration interacts with your system.
+
+***
+
+### Managing Installed Integrations
+
+Once installed:
+
+1. The integration’s status will update to `Installed`.
+
+2. Click `Manage Integration` to:
+
+   * Update credentials securely.
+
+   * Test the connection to ensure it’s functional.
+
+   * Uninstall the integration, if needed.
+
+For integrations requiring updates or troubleshooting, refer to their specific documentation for support.
+
+***
+
+### Linking Integrations to Ticket Categories
+
+Once an integration is installed, you can link it directly to a **Ticket Category** to collect additional information before a ticket is submitted:
+
+1. Navigate to **Ticket Categories**.
+
+2. Click the `Edit` icon on the category you want to modify.
+
+3. Add a new field and select `Integration Type`.
+
+4. Choose the installed integration and specify an **Integration Method** (e.g., "Get Customer by Email" or "Get Order by ID").
+
+5. Enable **Integration Data Validation** if wanted, to ensure the data is verified before a ticket is created. For example:
+
+   * Validate if a customer exists for the provided email.
+
+   * Confirm if an order can be found using the specified order ID.
+
+This ensures that only valid data is processed, saving time and preventing unnecessary ticket creation.
+
+With these integrations, TicketPilot adapts to your workflow, ensuring seamless support and automation for your server.

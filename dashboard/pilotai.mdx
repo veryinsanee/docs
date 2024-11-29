@@ -1,0 +1,64 @@
+---
+title: 'PilotAI'
+description: 'Enhance your support with AI-powered tools for translations, tone rewriting, and automation.'
+icon: ai
+---
+
+### PilotAI Documentation
+---
+
+## Tone Rewriter
+
+The **Tone Rewriter** allows you to standardize the tone of outgoing messages sent by staff members in tickets.
+
+### Global Configuration
+
+1. Go to the `Tone Rewriter` tab under PilotAI.
+2. Select a **Tone Preset** from the dropdown menu, such as Friendly, Professional, or Casual.
+   - This setting applies to all tickets by default.
+
+### Ticket-Specific Tone
+
+If a different tone is required for a specific ticket, you can override the global setting using the `/tone` command directly within the ticket. This creates an exception (similar to the "lex specialis" principle) and ensures that tone rewriting for that ticket is adjusted accordingly.
+
+### Manual Rewriting
+
+Use the `/rewrite` command in Discord to manually rewrite a specific message. You can choose a tone on-the-fly for the rewritten text, making it easy to adapt your communication style as needed.
+
+
+---
+
+## Real-Time Translations
+
+The **Real-Time Translations** feature automatically translates incoming and outgoing messages within tickets, ensuring smooth communication across language barriers.
+
+### Force Incoming Language
+
+1. Navigate to the `Realtime Translations` tab.
+2. Use the `Force Incoming Language` dropdown to set a default language for all incoming messages.
+   - For example, selecting "German" ensures all incoming messages are translated to German.
+
+### Force Outgoing Language
+
+1. Use the `Force Outgoing Language` dropdown to set a default language for all outgoing messages.
+   - For example, selecting "English" ensures that all staff responses are translated into English.
+
+### Ticket-Specific Language Settings
+
+If specific language rules are required for a ticket, use the `/language` command. This applies only to the ticket where the command is executed, overriding global language settings.
+
+---
+
+## SmartFocus
+
+The **SmartFocus** feature automates responses by understanding user intentions and sending predefined solutions.
+
+### Setting Up a SmartFocus Trigger
+
+1. Navigate to the `SmartFocus` tab in PilotAI.
+2. Click `Add Trigger`.
+3. Enter the **Intention to Detect**, such as "I can't log in."
+4. Select the corresponding **Help Solution** from the dropdown (configured in the Help Desk feature).
+5. Save the trigger.
+
+When PilotAI detects a matching intention in user messages, it automatically sends the selected Help Solution, reducing the need for manual intervention.
