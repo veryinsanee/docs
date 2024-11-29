@@ -46,7 +46,7 @@
     },
     {
       "group": "Features",
-      "pages": ["features/reviews", "features/help_desk", "features/ocr_scanner", "features/integrations", "features/pilotai"]
+      "pages": ["dashboard/reviews", "dashboard/help_desk", "dashboard/ocr_scanner", "dashboard/integrations", "dashboard/pilotai"]
     },
     {
       "group": "Miscellaneous",
