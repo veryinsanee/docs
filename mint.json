@@ -34,7 +34,7 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["introduction", "setup/setup-guide", "setup/custom-bot-setup"]
+      "pages": ["setup/setup-guide", "setup/custom-bot-setup"]
     },
     {
       "group": "Dashboard",
